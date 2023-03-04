@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" type="image/ico" href="image/favicon.ico">
+</head>
+
+<body>
+    <nav id="Navbar">
+        <a href="#"><i class="fa fa-home" aria-hidden="true">&#x1F3E0;</i>Home</a>
+        <a href="#"><i class="material-icons" style="height: 30px;" >&#x2712;</i>Watch</a>
+        <a href="#"><i class="material-icons">&#128222;</i>Contact Us</a>
+        <a href="#"><i class="material-icons">&#128297;</i>Hardware</a>
+    </nav>
+    <div id="img">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="">
+    </div>
+    <div id="text">
+        <input type="text">
+        <div id="button">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+        <p>Get up close with the world’s most curious creatures for <span id="unline"> World Wildlife Day</span></p>
+        <p id="lang">Google offered in: <span lang="hi">हिंदी</span> <span lang="ru">Русский</span><span
+                lang="fr">Français</span><span lang="ar">عربي</span><span lang="pl">polski</span><span
+                lang="el">Ελληνικά</span><span lang="	zh-Hant">中國人</span><span lang="	ja">日本</span><span
+                lang="	de">Deutsch</span></p>
+    </div>
+    <div id="footer">
+        <footer id="firstfoot">
+            <a href="#">India</a>
+        </footer>
+        <footer id="secfoot">
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+            <div id="rsecfoot">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </footer>
+    </div>
+</body>
+<style>
+    body {
+        background-color: rgba(32, 33, 36, 255);
+        font-family: sans-serif;
+    }
+
+    #unline {
+        /* text-decoration: underline; */
+        color: #6f90c6;
+    }
+
+    #unline:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    p {
+        color: rgb(182, 179, 179);
+        margin-left: 35%;
+        font-size: small;
+    }
+
+    #Navbar {
+        border-bottom: 1px solid rgba(88, 89, 92, 255);
+        background-color: #35363a;
+        height: 25px;
+        font-size: 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #Navbar a {
+        text-decoration: none;
+        color: rgb(219, 217, 217);
+        margin: 10px;
+        font-size: small;
+    }
+   #Navbar a:hover{
+      border-radius: 5px;
+      background-color: #454546;
+   }
+    #img {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    #text input {
+        border-radius: 15px;
+        display: block;
+        border: 1.9px solid #53565b;
+        background-color: rgba(32, 33, 36, 255);
+        margin-left: auto;
+        margin-right: auto;
+        width: 43%;
+        height: 35px;
+    }
+
+    #text input:hover {
+        background-color: #454546;
+        box-shadow: 10px rgb(0, 0, 0);
+    }
+    #button {
+        /* border: 1px solid white; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        margin-top: 30px;
+    }
+
+    #button button {
+        background-color: rgba(48, 49, 52, 255);
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 2px;
+    }
+
+  button:hover {
+        cursor: pointer;
+        box-shadow: 10px 10px 10px 10px var(#000000);
+    }
+
+    #footer {
+        position: absolute;
+        top: 85.7%;
+        left: 0;
+        width: 100%;
+    }
+
+    #firstfoot {
+        background-color: rgba(23, 23, 23, 255);
+        padding: 13px;
+
+    }
+ 
+    #secfoot {
+        border-top: 1px solid #515151;
+        background-color: rgba(23, 23, 23, 255);
+        /* padding: 5px; */
+        display: flex;
+        /* justify-content: space-between; */
+
+    }
+    #secfoot a:hover{
+        text-decoration: underline;
+    }
+    #rsecfoot {
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+
+    #firstfoot a {
+        text-decoration: none;
+        color: #9b9990;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    #secfoot a {
+        text-decoration: none;
+        color: #949491;
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 13px;
+    }
+    #lang{
+        margin-top: 2%;
+        margin-left: 31%;
+    }
+    #lang span {
+        padding: 3px;
+        color: #6f90c6;
+    }
+
+    #lang span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+</style>
+
+</html>
